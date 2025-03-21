@@ -9,7 +9,7 @@ void swap(int* x, int* y){
 int main(){
 	int a = 8,b = 6;
 	//cin>>a>>b;
-	int* x =&a;
+	int* x = &a;
 	int* y = &b;
 	swap(&a,&b);
 	cout<<a<<" "<<b;

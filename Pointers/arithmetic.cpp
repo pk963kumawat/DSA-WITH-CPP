@@ -5,5 +5,5 @@ int main(){
 	int* ptr = &x;
 	cout<<ptr<<endl; //0x6ffe44
 	ptr = ptr + 1;
-	cout<<ptr<<endl; // 
+	cout<<ptr<<endl; // 0x6ffe48
 }
